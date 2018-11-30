@@ -34,4 +34,5 @@ void correctTrans(int M, int N, int A[N][M], int B[M][N]);
 void registerTransFunction(
     void (*trans)(int M,int N,int[N][M],int[M][N]), char* desc);
 
+
 #endif /* CACHELAB_TOOLS_H */

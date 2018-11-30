@@ -10,6 +10,7 @@
 
 typedef unsigned cache_opt_res;
 /**
+ * NOTE: 
  * I: nop
  * L: miss; hit; miss eviction;
  * S: miss; hit; miss eviction;
@@ -41,7 +42,6 @@ typedef struct cache_stats_st {
     int evictions;
 } cache_stats;
 
-
 /* simulator cache struct */
 typedef struct simulator_cache_st {
     int setcnt;
@@ -57,7 +57,6 @@ typedef struct simulator_cache_st {
     int verbose;
     int setmask;
 } simulator_cache;
-
 
 /* cache operation agrs struct */
 typedef struct {
